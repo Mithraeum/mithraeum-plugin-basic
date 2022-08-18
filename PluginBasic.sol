@@ -21,9 +21,3 @@ abstract contract PluginBasic {
         emit NewContent(_content);
     }
 }
-
-contract Plugin is PluginBasic {
-    function setContent(string memory _content) public {
-        _setContent(_content);
-    }
-}
